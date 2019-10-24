@@ -1,0 +1,247 @@
+a{
+	text-decoration: none;
+	color:white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.banner ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	background-color: rgb(211, 211, 211);
+	height: 40px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	}
+
+.banner li:hover{
+	font-weight: bold;
+	text-shadow: 3px 3px 3px;
+}
+
+h1{
+	background-color: white;
+	padding-left: 10px;
+	font-family: 'Slabo 27px', serif;
+}
+
+h2{
+	background-color: white;
+	padding-left: 10px;
+	font-family: 'Slabo 27px', serif;
+}
+h3{
+	font-family: 'Slabo 27px', serif;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+}
+
+li{
+	font-family: 'Poppins', sans-serif;
+}
+
+.presentation{
+	background-color: rgb(211,211,211);
+	padding: 15px
+}
+
+.corppresentation {
+	display: flex;
+}
+
+
+.textepres{
+	text-align: justify;
+	padding-left: 100px;
+}
+
+.presentation img{
+	width: 200px;
+	height:200px;
+	padding-right: 150px;
+	padding-left: 250px;
+}
+
+.resume{
+	background-color: rgb(211,211,211);
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.corpresume{
+	padding-left: 30px;
+}
+
+.hobies{
+	background-color: rgb(211,211,211);
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+.hobies p a:hover{
+	font-weight: bold;
+	text-shadow: 3px 3px 3px;
+}
+
+.cinema{
+	display: flex;
+}
+
+.cinema img {
+	height: 100px;
+	padding-left: 15px;
+}
+
+.mode{
+	display: flex;
+}
+
+.mode img {
+	height: 100px;
+	padding-left: 15px;
+}
+
+.poetry{
+	display: flex;
+}
+
+.poetry img {
+	height: 100px;
+	padding-left: 15px;
+}
+
+.travel{
+	display: flex;
+}
+
+.travel img {
+	height: 100px;
+	padding-left: 15px;
+}
+
+.cinemacarre {
+	background-image: url(images/cinemacarre.jpg);
+	object-fit: cover;
+	background-size: 200px;
+	background-repeat: no-repeat;
+	color:white;
+	padding-left: 10px;
+}
+
+.photocarre h3:hover{
+	font-weight: bold;
+	text-shadow: 3px 3px 3px;
+}
+
+
+.modecarre{
+	background-image: url(images/modecarre.jpg);
+	object-fit: cover;
+	background-size:200px;
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 10px;
+	margin-bottom: 70px;
+	
+}
+
+.poetrycarre{
+	background-image: url(images/poetrycarre.jpg);
+	object-fit: cover;
+	background-size: 200px;
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 10px;
+}
+
+.travelcarre{
+	background-image: url(images/voyagecarre.jpg);
+	object-fit: cover;
+	background-size: 200px;
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 10px;
+}
+
+.photocarre{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	justify-items: center;
+	margin-bottom: -160px;
+	text-shadow: 3px 3px 3px black;
+	padding-left: 45px;
+}
+
+.contact{
+	background-color: rgb(211,211,211);
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.email{
+	display: flex;
+	padding-left: 450px;
+}
+
+.phone{
+	display: flex;
+	padding-left: 450px;
+}
+
+.linkedintxt h3:hover{
+	font-weight: bold;
+	text-shadow: 3px 3px 3px;
+}
+
+.linkedin{
+	display: flex;
+	padding-left: 450px;
+}
+
+
+.email img{
+	width: 50px;
+	height: 50px;
+	padding-right: 15px;
+}
+
+.email h3:hover{
+	font-weight: bold;
+	text-shadow: 3px 3px 3px;
+}
+
+.phone img{
+	width: 50px;
+	height:50px;
+	padding-right: 15px;
+}
+
+.linkedin img{
+	width: 50px;
+	height: 50px;
+	padding-right: 15px;
+}
+
+.linkedin h3:hover{
+	font-weight: bold;
+	text-shadow: 3px 3px 3px;
+}
+
+.card-hobbies {
+	height: 300px;
+	width: 300px;
+}
+
+.phone h3{
+	color:white;
+}
+
